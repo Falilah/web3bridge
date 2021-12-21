@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>cipher</title>
+    <style>
+      body {
+        position: relative;
+        background: #ec1404;
+        color: #000;
+        font-size: 2rem;
+        top: 150px;
+        display: grid;
+        place-content: center;
+      }
+      button {
+        cursor: pointer;
+      }
+      textarea {
+        width: 20rem;
+        height: 20vh;
+        border: solid 2mm #000;
+        border-radius: 20px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <section>
+      <h1>Simple Cipher!</h1>
+    </section>
+    <section>
+      <label>
+        <textarea
+          type="text"
+          id="plainInput"
+          placeholder="type in your plain text"
+        ></textarea>
+      </label>
+      <button id="encrypt-btn">Encrypt</button>
+      <label>
+        <textarea
+          type="text"
+          id="encryption"
+          placeholder="encypted text will appear here..."
+        ></textarea>
+      </label>
+      <button id="dycript-btn">decrypt</button>
+    </section>
+
+    <section>
+      <label>
+        <textarea
+          type="text"
+          id="encryption"
+          placeholder="Original text will appear here..."
+        ></textarea>
+      </label>
+    </section>
+
+    <script src="index.js"></script>
+  </body>
+</html>
